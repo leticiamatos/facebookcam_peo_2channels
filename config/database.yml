@@ -1,10 +1,16 @@
 development:
-  adapter: postgresql
-  encoding: unicode
-  database: facebookCam_development
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
-  username: facebookCam
-  password:
+  timeout: 5000
+
+#development:
+#  adapter: postgresql
+#  encoding: unicode
+#  database: facebookCam_development
+#  pool: 5
+#  username: facebookCam
+#  password:
 
 test:
   adapter: postgresql

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FacebookCam::Application.load_tasks
+FbcamPeoV2::Application.load_tasks

@@ -5,10 +5,8 @@ class HomeController < ApplicationController
 	end
 
 	def video
-
 	end
 
 	def video_02
-
 	end
 end

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FacebookCam - PEO</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	<title>FacebookCam - PEO</title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
@@ -12,8 +12,31 @@
 
 </head>
 <body>
+	<div id="fb-root" class=" fb_reset"></div>
+	<script src="//connect.facebook.net/en_US/all.js"></script>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=372248136241124";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 
-<%= yield %>
+		FB.init({
+			appId : '372248136241124',
+			channelUrl : 'http://www.renatosaraiva.com.br/cersCam/index.php'  // custom channel
+		});
+		
+		FB.Canvas.setAutoGrow();
+		//FB.Canvas.setAutoResize();
+	</script>
+
+	<section class="noLike">
+		<p>Curta nossa página clicando em <a href="" class="curtir">curtir</a> e tenha acesso a aulas AO VIVO e exclusivas</p>
+	</section>
+
+  <%= yield %>
 
 </body>
 </html>
