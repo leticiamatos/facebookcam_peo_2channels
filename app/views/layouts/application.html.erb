@@ -7,11 +7,35 @@
 	<%= csrf_meta_tags %>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<script src="https://jwpsrv.com/library/pidYPinsEeORHBIxOUCPzg.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
+	<div id="fb-root" class=" fb_reset"></div>
+	<script src="//connect.facebook.net/en_US/all.js"></script>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=372248136241124";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		FB.init({
+			appId : '372248136241124',
+			channelUrl : 'http://fbcam-peo-v2.herokuapp.com/'  // custom channel
+		});
+		
+		FB.Canvas.setAutoGrow();
+		//FB.Canvas.setAutoResize();
+	</script>
+
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="true" data-send="false"></div>
+
+	<section class="noLike">
+		<p>Curta nossa página clicando em <a href="" class="curtir">curtir</a> e tenha acesso a aulas AO VIVO e exclusivas</p>
+	</section>
 
   <%= yield %>
 

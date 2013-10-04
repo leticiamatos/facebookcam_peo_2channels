@@ -57,4 +57,39 @@
 		autostart: 'false',
 		primary: 'flash'
 	});
+
+
+	setupVar = {
+		flashplayer: '/assets/player-licensed.swf',
+		height: 243,
+		width: 372,	
+		autostart: true,
+		controlbar: 'bottom',
+		dock : false,
+		modes: [
+		{ 
+			type: 'flash', 
+			src: "/assets/player-licensed.swf", 
+			config: { 
+				skin : "/assets/cers.zip",
+				provider : "http://players.edgesuite.net/flash/plugins/jw/v2.	11/jw5/AkamaiAdvancedJWStreamProvider.swf",
+				file : "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_%{channel}@37037"
+
+			}
+		}, 
+		{ 
+			type: 'html5', 
+			config: {
+				skin : "/assets/cers/cers.xml",
+				file : "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers%{channel}/playlist.m3u8",
+				provider : 'video'
+			}
+		}
+		]
+	};
+
+	function sendURL(){}
+
+	//jwplayer("player1").setup(setupVar);
+		  		
 </script>
