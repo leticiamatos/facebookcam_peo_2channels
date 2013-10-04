@@ -1,30 +1,32 @@
 class HomeController < ApplicationController
 
 	def index
-		render :action => 'video'
-	end
-
-	def video
-	end
-
-	def video_02
+		if Time.now.saturday?
+			video_ultimotreino
+		else
+			video_mesaredonda
+		end
 	end
 
 	def video_mesaredonda
-		@id = params[:id].blank? ? 1 : params[:id].to_i
+		@id = 1
+		@id = params[:id].to_i unless params[:id].blank?
 
-		if @id > 2 || @id < 1
-			@id = 1
-			@other_id = 2
-		end
-
-		@other_id = 1 if @id == 2
+		@other_id = 1
 		@other_id = 2 if @id == 1
-
-		@channel = 4 if @id == 1
+		
+		@channel = 4
 		@channel = 6 if @id == 2
+
+		respond_to do |format|
+			format.html{ render 'video_mesaredonda' }
+		end
 	end
 
 	def video_ultimotreino
+		respond_to do |format|
+			format.html{ render 'video_ultimotreino' }
+		end
 	end
+
 end
