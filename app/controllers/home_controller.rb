@@ -11,7 +11,7 @@ class HomeController < ApplicationController
 	end
 
 	def video_mesaredonda
-		@id = params[:id].to_i
+		@id = params[:id].blank? ? 1 : params[:id].to_i
 
 		if @id > 2 || @id < 1
 			@id = 1

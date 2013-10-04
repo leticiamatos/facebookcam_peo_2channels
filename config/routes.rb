@@ -49,6 +49,7 @@ FbcamPeoV2::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => 'home#video_ultimotreino'
+  get "/mesaredonda" => 'home#video_mesaredonda'
   get "/mesaredonda/:id" => 'home#video_mesaredonda'
   get "/ultimotreino" => 'home#video_ultimotreino'
 
