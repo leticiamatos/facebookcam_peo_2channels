@@ -13,3 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+$('.pluginConnectButton').click(function(){
+	ga('send', 'event', 'click', 'Curtir Facebook');
+});
+
+$('#video_wrapper').click(function(){
+	ga('send', 'event', 'click', 'Assistir Vídeo');
+});
