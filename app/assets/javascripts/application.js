@@ -22,3 +22,7 @@ $('.pluginConnectButton').click(function(){
 $('#video_wrapper').click(function(){
 	ga('send', 'event', 'click', 'Assistir Vídeo');
 });
+
+$('.mainCommentForm').click(function(){
+	ga('send', 'event', 'click', 'Comentários');
+});
