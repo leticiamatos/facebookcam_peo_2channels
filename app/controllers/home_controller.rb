@@ -1,11 +1,11 @@
 class HomeController < ApplicationController
 
 	def index
-		if Time.now.saturday?
+		#if Time.now.saturday?
 			video_ultimotreino
-		else
-			video_mesaredonda
-		end
+		#else
+		#	video_mesaredonda
+		#end
 	end
 
 	def video_mesaredonda
