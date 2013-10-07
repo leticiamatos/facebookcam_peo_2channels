@@ -15,7 +15,7 @@
   @cTest:rgba(0,255,0,0.5);  
   
   /* Measures */
-  @width:810px;
+  @width:800px;
   .width_center{
     width: @width;
     margin-left: auto;
@@ -118,6 +118,7 @@ body{
 }
 .general{
   .width_center;
+  overflow: hidden;
 }
 
 /* Header */
@@ -186,6 +187,7 @@ header{
       font-style: italic;
     }
   }
+
 }
 
 /* Content */
@@ -255,7 +257,7 @@ header{
     text-transform: uppercase;
   }
   .col_01{
-    width: 360px;
+    width: 350px;
     .line_01{
       padding-top: 14px;
       font-size: 16px;
@@ -330,5 +332,16 @@ footer{
     color: #fff;
     font-size: 10px;
     font-weight: 300;
+  }
+}
+
+// Default Template 
+.default_template{
+  header .col_02{
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  .schedule{
+    display: none;
   }
 }
