@@ -1,0 +1,347 @@
+/* =============================================================================
+   Variables
+========================================================================== */
+
+  /* Colors */
+  @cK:#111;
+  @cC:#262C35;  
+  @cGray:#BBBBBB;  
+  @cGray2:#AAAAAA;  
+  @cGray3:#777777;  
+  @cGray4:#666666;
+  @cR:#D83930;  
+  @cR2:#7B2825;  
+  
+  @cTest:rgba(0,255,0,0.5);  
+  
+  /* Measures */
+  @width:800px;
+  .width_center{
+    width: @width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Fonts */
+  @fontReg: 'Ubuntu', sans-serif;
+
+/* =============================================================================
+   General
+========================================================================== */
+.radius (@radius: 2px){
+  border-radius:@radius !important;
+  -moz-border-radius:@radius !important;
+  -webkit-border-radius:@radius !important;
+  -o-border-radius:@radius !important;
+  -ms-border-radius:@radius !important;
+}
+.shadow (@shadow: 3px 3px 2px rgba(0,0,0,0.3)){
+  box-shadow:@shadow !important;
+  -moz-box-shadow:@shadow !important;
+  -webkit-box-shadow:@shadow !important;
+  -o-box-shadow:@shadow !important;
+  -ms-box-shadow:@shadow !important;
+}
+.textShadow (@textShadow: 0px 1px 0px #000000){
+  text-shadow:@textShadow;
+  -moz-text-shadow:@textShadow;
+  -webkit-text-shadow:@textShadow;
+  -o-text-shadow:@textShadow;
+  -ms-text-shadow:@textShadow;
+}
+.transition (@transiton:0.6s){
+  transition:@transiton;
+  -moz-transition:@transiton;
+  -webkit-transition:@transiton;
+  -o-transition:@transiton;
+  -ms-transition:@transiton;
+}
+.rotation (@rotation:0.2s){
+  transform:rotate(valuedeg);
+  -moz-transform:rotate(valuedeg);
+  -webkit-transform:rotate(valuedeg);
+  -o-transform:rotate(valuedeg);
+  -ms-transform:rotate(valuedeg);
+}
+.noRadius (@radius: 0){
+  border-radius:@radius !important;
+  -moz-border-radius:@radius !important;
+  -webkit-border-radius:@radius !important;
+  -o-border-radius:@radius !important;
+  -ms-border-radius:@radius !important;
+}
+.noShadow (@shadow:none){
+  box-shadow:@shadow !important;
+  -moz-box-shadow:@shadow !important;
+  -webkit-box-shadow:@shadow !important;
+  -o-box-shadow:@shadow !important;
+  -ms-box-shadow:@shadow !important;
+}
+.noTextShadow (@textShadow: none){
+  text-shadow:@textShadow;
+  -moz-text-shadow:@textShadow;
+  -webkit-text-shadow:@textShadow;
+  -o-text-shadow:@textShadow;
+  -ms-text-shadow:@textShadow;
+}
+.noTransition (@transiton:none){
+  transition:@transiton;
+  -moz-transition:@transiton;
+  -webkit-transition:@transiton;
+  -o-transition:@transiton;
+  -ms-transition:@transiton;
+}
+.noOpacity{
+  opacity: 1 !important;
+}
+
+.clear{
+  display: block; 
+  clear: both;
+}
+a,
+.btn_submit{ 
+  color: @cC;
+  .transition;
+}
+a:hover,
+.btn_submit:hover{
+  text-decoration: none; 
+  opacity: 0.6;
+}
+
+/* Content */
+body{
+  font-family: @fontReg;
+  font-size: 15px;
+  //background: url(../img/z_lixo_video_canais.jpg) top center no-repeat;
+}
+.general{
+  .width_center;
+  overflow: hidden;
+}
+
+/* Header */
+.pin{
+  position: relative;
+  .channel{
+    position: absolute;
+    top: 17px;
+    left: 299px;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+header{
+  position: relative;
+  padding: 15px 85px;
+  background: url(../img/body_bg.gif);
+  font-weight: 300;
+  
+  .logo{
+    display: block;
+    position: absolute;
+    left: 86px;
+    top: -44px;
+    z-index: 20;
+  }
+  p, h2{
+    display: block;
+  }
+  .col_02{
+    padding-left: 215px;
+    text-transform: uppercase;
+    line-height: 18px;
+
+    .line_01{
+      font-size: 19px;
+      font-weight: 700;
+      span{
+        color: @cR;
+        font-weight: 300;
+      }
+    }
+    .line_02{
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .line_03{
+      font-style: italic;
+      font-size: 15px;
+      border-bottom:1px solid @cGray2;
+      padding-bottom: 10px;
+    }
+    .line_04,
+    .line_05,
+    .line_06{
+      font-size: 13px;
+      line-height: 15px;
+      color: @cGray4;
+    }
+    .line_04{
+      padding-top: 5px;
+    }
+    .line_06{
+      font-style: italic;
+    }
+  }
+
+}
+
+/* Content */
+.content{
+  background: @cC;
+  padding: 12px 0;
+  text-align: center;
+  #video_wrapper{
+    width:640px;
+    margin: 0 auto;
+  }
+  .video{
+    margin: 0 auto;
+    width: 640px;
+    position: relative;
+    min-height: 355px;
+    z-index: 3;
+
+    .btn_play{
+      position: absolute;
+      display: block;
+      top: 100px;
+      left: 245px;
+    }
+    img{
+      display: block;
+    }
+  }
+}
+
+/* Programação */
+.schedule{
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 13px solid @cR2;
+  background: url(../img/body_bg.gif);
+  position: relative;
+  
+  .channel_1,
+  .channel_2{
+    display: block;
+    position: absolute;
+    //background: @cTest;
+    height: 397px;
+    width: 227px;
+    top: 73px;
+  }
+  .channel_1{  
+    left: 270px;
+  }
+  .channel_2{
+    left: 497px;
+  }
+}
+
+/* Formulário Newsletter */
+.newsletter_form{
+  clear: both;
+  padding: 20px 60px;
+  text-align: center;
+  height: 107px;
+  position: relative;
+  background: url(../img/body_bg.gif);
+  .col_01,
+  .col_02{
+    float: left;
+    text-transform: uppercase;
+  }
+  .col_01{
+    width: 350px;
+    .line_01{
+      padding-top: 14px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+    .line_02{
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 14px;
+      padding-top: 8px;
+      color: @cGray3;
+    }
+  }
+  .col_02{
+    width: 304px;
+    padding-left: 25px;
+    padding-top: 12px;
+
+    label{
+      display: block;
+      width: 47px;
+      color: @cGray3;
+      float: left;
+      clear: both;
+      height: 43px;
+      line-height: 31px;
+      text-align: left;
+      font-size: 12px;
+    }
+    .txt{
+      border: 1px solid @cGray;
+      background: #fff;
+      padding: 4px 10px 5px;
+      font-size: 14px;
+      font-family: @fontReg;
+      display: block;
+      float: left;
+      margin-top: 3px;
+    }
+    #txt_nome{
+      width: 234px;
+    }
+    #txt_email{
+      width: 145px;
+    }
+    .btn_submit{
+      float: left;
+      display: block;
+      width: 83px;
+      height: 29px;
+      text-align: left;
+      font-size: 9px;
+      overflow: hidden;
+      text-indent: -200px;
+      border: none;
+      background: url(../img/btn_cadastrar.png) top center;
+      position: absolute;
+      bottom: 40px;
+      right: 62px;
+      cursor: pointer;
+    }
+  }
+}
+footer{
+  height: 60px;
+  background: @cC;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align:center; 
+  a{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+// Default Template 
+.default_template{
+  header .col_02{
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  .schedule{
+    display: none;
+  }
+}
