@@ -3,7 +3,7 @@
 	<div class="block_cntt pin">
 		<div class="fb-like" data-href="https://www.facebook.com/portalexamedeordem?fref=ts" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false" style="position:absolute;right: 320px; top: 17px;"></div>
 		<img src="img/top01(like).png">
-		<a class="link_face" href="#" target="_blank"></a>
+		<a class="link_face" href="https://www.facebook.com/portalexamedeordem/" target="_blank"></a>
 	</div>
 
 	<header>
