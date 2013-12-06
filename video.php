@@ -12,7 +12,7 @@
 		</h1>
 		<div class="col_02">
 			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
-			<h2 class="line_03">TRANSMISSÃO DA GRAVAÇÃO DE AULA</h2>
+			<h2 class="line_03">MESA REDONDA - 1ª FASE</h2>
 			<p class="line_04">XII EXAME DE ORDEM UNIFICADO</p>
 		</div>
 	</header>
