@@ -35,7 +35,7 @@
 				<input name="key" type="hidden" value="994119">
 				<input name="url_ok" type="hidden" value="https://www.facebook.com/portalexamedeordem/app_372248136241124">
 				<input name="url_error" type="hidden" value="https://www.facebook.com/portalexamedeordem/app_372248136241124">
-				<input name="list[]" type="hidden" value="523864">
+				<input name="list[]" type="hidden" value="523950">
 
 				<label for="txt_nome">Nome</label>
 				<input name="name" type="text" class="txt" id="txt_nome" />
