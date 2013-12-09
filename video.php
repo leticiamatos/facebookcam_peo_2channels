@@ -11,8 +11,8 @@
 			<img src="img/logo_fcpeo.png" />
 		</h1>
 		<div class="col_02">
-			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
-			<h2 class="line_03">OVERDOSE</h2>
+			<p class="line_01">OVERDOSE <span>AO VIVO</span></p>
+			<h2 class="line_03"> &nbsp; </h2>
 			<p class="line_04">XII EXAME DE ORDEM UNIFICADO</p>
 		</div>
 	</header>
@@ -20,7 +20,7 @@
 	<section class="content">
 		<div id='video' class="video">
 			<!-- Video aqui -->
-			<span class="thumb"><img src="img/z_lixo_imgvideo.jpg" /></span>
+			<span class="thumb"><!--<img src="img/z_lixo_imgvideo.jpg" />--></span>
 			<a href="#" class="btn_play"><img src="img/btn_play.png" /></a>
 		</div>
 	</section>
