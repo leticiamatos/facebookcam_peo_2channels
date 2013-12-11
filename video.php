@@ -11,8 +11,8 @@
 			<img src="img/logo_fcpeo.png" />
 		</h1>
 		<div class="col_02">
-			<p class="line_01">OVERDOSE <span>AO VIVO</span></p>
-			<h2 class="line_03"> &nbsp; </h2>
+			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
+			<h2 class="line_03">TRANSMISSÃO DA GRAVAÇÃO DE AULA</h2>
 			<p class="line_04">XII EXAME DE ORDEM UNIFICADO</p>
 		</div>
 	</header>
@@ -20,7 +20,7 @@
 	<section class="content">
 		<div id='video' class="video">
 			<!-- Video aqui -->
-			<span class="thumb"><!--<img src="img/z_lixo_imgvideo.jpg" />--></span>
+			<span class="thumb"><img src="img/z_lixo_imgvideo.jpg" /></span>
 			<a href="#" class="btn_play"><img src="img/btn_play.png" /></a>
 		</div>
 	</section>
@@ -35,7 +35,7 @@
 				<input name="key" type="hidden" value="994119">
 				<input name="url_ok" type="hidden" value="https://www.facebook.com/portalexamedeordem/app_372248136241124">
 				<input name="url_error" type="hidden" value="https://www.facebook.com/portalexamedeordem/app_372248136241124">
-				<input name="list[]" type="hidden" value="523950">
+				<input name="list[]" type="hidden" value="523864">
 
 				<label for="txt_nome">Nome</label>
 				<input name="name" type="text" class="txt" id="txt_nome" />
@@ -62,8 +62,8 @@
 
 <script>
 
-	var html5 = "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers14/playlist.m3u8";
-	var flash = "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_14@37037";
+	var html5 = "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers16/playlist.m3u8";
+	var flash = "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_16@37037";
 	var id = "video";
 
 	jwplayerPlay(id, html5, flash);
