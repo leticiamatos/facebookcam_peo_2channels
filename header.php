@@ -17,11 +17,11 @@
 	<script>
 		window.fbAsyncInit = function() {
 			FB.init({
-	      appId      : '372248136241124',                  					        // App ID from the app dashboard
-	      channelUrl : 'http://fbcam-qgdoenem.herokuapp.com/',							// Channel file for x-domain comms
-	      status     : false,							                                  // Check Facebook Login status
-	      xfbml      : true               							                    // Look for social plugins on the page
-		  });
+		      appId      : '372248136241124',                  					        // App ID from the app dashboard
+		      channelUrl : 'http://fbcam-peo-v2.herokuapp.com/',	// Channel file for x-domain comms
+		      status     : false,							                                  // Check Facebook Login status
+		      xfbml      : true               							                    // Look for social plugins on the page
+			});
 
 			$(document).trigger('fbload');  //  <---- THIS RIGHT HERE TRIGGERS A CUSTOM EVENT CALLED 'fbload'
 		};
