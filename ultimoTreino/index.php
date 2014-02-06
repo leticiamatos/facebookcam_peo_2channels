@@ -8,7 +8,9 @@
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
 		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
 			$fb = true;
+			echo "alert('" . $fb . "')";
 		echo "}";
+		echo "alert('" . $fb . "')";
 	echo "</script>";
 	
 	if ($fb){
