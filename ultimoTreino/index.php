@@ -1,9 +1,9 @@
 <?php
+
 	include("header.php");
 	include("../google_analytics.php");
+	
 ?>
-
-
 
 <script>
 	if (document.referrer.match(/facebook[.]com/gi) == null){
@@ -11,10 +11,8 @@
 	}
 </script>
 
-
-
-
 <?php
+
 	// create the Facebook Graph SDK object
 	require '../src/facebook.php';
 	$facebook = new Facebook(array(
@@ -29,4 +27,5 @@
 	include("video" . $unlike . ".php");
 
 	include("../footer.php");
+
 ?>
