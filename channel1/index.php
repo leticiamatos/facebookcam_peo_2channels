@@ -6,8 +6,8 @@
 	// create the Facebook Graph SDK object
 	require '../src/facebook.php';
 	$facebook = new Facebook(array(
-		'appId'=>'1393749097528499', // replace with your value
-		'secret'=>'2cbdb6bb75604d672b53d7eb424d2a68' // replace with your value
+		'appId'=>'510114585744962', // replace with your value
+		'secret'=>'a807d022e73d9c2716d5d6915d6967ff' // replace with your value
 	));
 
 	$signedRequest = $facebook->getSignedRequest();
