@@ -18,7 +18,7 @@
 		window.fbAsyncInit = function() {
 			FB.init({
 		      appId      : '372248136241124',                  					        // App ID from the app dashboard
-		      channelUrl : 'http://fbcam-peo-v2.herokuapp.com/',	// Channel file for x-domain comms
+		      channelUrl : 'http://fbcam-peo-v2.herokuapp.com/ultimoTreino',	// Channel file for x-domain comms
 		      status     : false,							                                  // Check Facebook Login status
 		      xfbml      : true               							                    // Look for social plugins on the page
 			});

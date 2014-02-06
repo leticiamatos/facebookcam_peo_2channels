@@ -17,7 +17,7 @@
 	<script>
 		window.fbAsyncInit = function() {
 			FB.init({
-		      appId      : '510114585744962',                  					        // App ID from the app dashboard
+		      appId      : '325693580861604',                  					        // App ID from the app dashboard
 		      channelUrl : 'http://fbcam-peo-v2.herokuapp.com/channel1',	// Channel file for x-domain comms
 		      status     : false,							                                  // Check Facebook Login status
 		      xfbml      : true               							                    // Look for social plugins on the page
@@ -30,7 +30,7 @@
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) return;
 			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=510114585744962";
+			js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=325693580861604";
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
