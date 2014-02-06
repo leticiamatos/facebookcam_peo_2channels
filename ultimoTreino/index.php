@@ -5,8 +5,7 @@
 	
 	echo "<script>";
 		echo "alert(document.domain);";
-		echo "alert(window.parent.domain);";
-		echo "alert(window.parent.location.origin);";
+		echo "alert(document.referrer);";
 	echo "</script>";
 		
 	// create the Facebook Graph SDK object
