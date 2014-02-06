@@ -3,19 +3,19 @@
 	include("header.php");
 	include("../google_analytics.php");
 	
-	$fb = false;
+	$fb = 0;
 	echo "FB FALSE ->  " . $fb;
 	echo "<script>";
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
 		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
-			$fb = true;
+			$fb = 1;
 			echo "alert('ENTROU -> " . $fb . "')";
 			echo "ENTROU ->  " . $fb;
 		echo "}";
 		echo "FB ->  " . $fb;
 	echo "</script>";
 	
-	if ($fb){
+	if ($fb == 1){
 		// create the Facebook Graph SDK object
 		require '../src/facebook.php';
 		$facebook = new Facebook(array(
