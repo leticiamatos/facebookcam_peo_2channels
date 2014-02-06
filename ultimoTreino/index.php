@@ -4,7 +4,7 @@
 	include("../google_analytics.php");
 	
 	echo "<script>";
-		echo "alert(document.location.origin)";
+		echo "alert(document.parent.location.origin)";
 	echo "</script>";
 		
 	// create the Facebook Graph SDK object
