@@ -28,7 +28,7 @@
 	</section>
 	<section class="schedule">
 		<img src="../img/programacao_cn2.png" />
-		<a href="index_chnl1.php" class="channel_1"></a>
+		<a href="../channel1/" class="channel_1"></a>
 	</section>
 
 	<section class="newsletter_form">
