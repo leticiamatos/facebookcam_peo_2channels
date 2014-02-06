@@ -3,15 +3,15 @@
 	include("header.php");
 	include("../google_analytics.php");
 	
-	$fb = false;
-	echo "<script>";
-		echo "alert(document.referrer.match(/facebook[.]com/gi));"
-		echo "if (document.referrer.match(/facebook[.]com/gi) != ''){";
-			$fb = true;
-		echo "}";
-	echo "</script>";
+	//$fb = false;
+	//echo "<script>";
+	//	echo "alert(document.referrer.match(/facebook[.]com/gi));"
+	//	echo "if (document.referrer.match(/facebook[.]com/gi) != ''){";
+	//		$fb = true;
+	//	echo "}";
+	//echo "</script>";
 	
-	if ($fb){
+	//if ($fb){
 		// create the Facebook Graph SDK object
 		require '../src/facebook.php';
 		$facebook = new Facebook(array(
@@ -24,9 +24,9 @@
 		// Inspect the signed request
 		$unlike = ($signedRequest['page']['liked'] == 1)? "" : "_unlike";
 		include("video" . $unlike . ".php");
-	}else{
-		include("video.php");
-	}
+	//}else{
+	//	include("video.php");
+	//}
 
 	include("../footer.php");
 	
