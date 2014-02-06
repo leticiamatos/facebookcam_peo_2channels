@@ -7,7 +7,7 @@
 	echo "FB FALSE ->  " . $fb;
 	echo "<script>";
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
-		$fb = echo "document.referrer.match(/facebook[.]com/gi)";
+		$fb = "document.referrer.match(/facebook[.]com/gi)";
 	echo "</script>";
 	
 		echo "FB ->  " . $fb;
