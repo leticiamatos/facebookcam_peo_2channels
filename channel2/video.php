@@ -60,7 +60,6 @@
 </section>
 
 
-<script src="../script/jquery-1.9.1.js" type="text/javascript"></script>
 <script src="../script/jw6/jwplayer.js" type="text/javascript"></script>
 <script>jwplayer.key="Rf+04i9NkiWHUtD93d4ECBX/KFPYRc1pScFRjYaLymQ=";</script>
 

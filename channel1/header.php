@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,900' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="../style/reset.css" type="text/css"/>
 	<link rel="stylesheet" href="../style/screen.css" type="text/css"/>
+	<script src="../script/jquery-1.9.1.js" type="text/javascript"></script>
 </head>
 
 <body>
