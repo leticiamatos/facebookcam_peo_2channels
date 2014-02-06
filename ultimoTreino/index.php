@@ -4,7 +4,8 @@
 	include("../google_analytics.php");
 	
 	echo "<script>";
-		echo "if (document.referrer.match(/facebook[.]com/gi)){";
+		echo "alert(document.referrer.match(/facebook[.]com/gi));"
+		echo "if (document.referrer.match(/facebook[.]com/gi) != ''){";
 			include("video.php");
 		echo "}";
 		echo "else{";
