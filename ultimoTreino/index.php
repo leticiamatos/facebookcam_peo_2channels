@@ -3,6 +3,10 @@
 	include("header.php");
 	include("../google_analytics.php");
 	
+	echo "<script>";
+		echo "alert(document.location.origin)";
+	echo "</script>";
+		
 	// create the Facebook Graph SDK object
 	require '../src/facebook.php';
 	$facebook = new Facebook(array(
@@ -16,7 +20,8 @@
 	$unlike = ($signedRequest['page']['liked'] == 1)? "" : "_unlike";
 	include("video" . $unlike . ".php");
 
+	
+
 	include("../footer.php");
 	
 ?>
-
