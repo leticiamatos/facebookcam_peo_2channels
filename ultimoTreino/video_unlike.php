@@ -1,20 +1,19 @@
 <section class="general default_template chnl1">
 
 	<div class="block_cntt pin">
-		<div class="channel">Canal 1</div>
 		<div class="fb-like" data-href="https://www.facebook.com/portalexamedeordem?fref=ts" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-		<img src="img/top02.png">
+		<img src="../img/top02.png">
 	</div>
 
 	<header>
 		<h1 class="logo">
-			<img src="img/logo_fcpeo.png" />
+			<img src="../img/logo_fcpeo.png" />
 		</h1>
 		<div class="col_02">
 			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
 			<!-- <h2 class="line_03">TRANSMISSÃO DA GRAVAÇÃO DE AULA</h2> -->
-			<h2 class="line_03">MESA REDONDA - 1&ordf; FASE</h2>
-			<p class="line_04">XII EXAME DE ORDEM UNIFICADO</p>
+			<h2 class="line_03">ÚLTIMO TREINO</h2>
+			<p class="line_04">XII EXAME DE ORDEM UNIFICADO - 2&ordf; FASE</p>
 		</div>
 	</header>
 
@@ -25,8 +24,7 @@
 	</section>
 
 	<section class="schedule">
-		<img src="img/programacao_cn1.png" />
- 		<a href="index_chnl2.php" class="channel_2"></a>
+		<img src="../img/programacao.png" />
 	</section>
 
 	<section class="newsletter_form">
@@ -58,4 +56,4 @@
 </section>
 
 
-<script src="script/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="../script/jquery-1.9.1.js" type="text/javascript"></script>

@@ -5,8 +5,8 @@
 	<title>FacebookCam - PEO</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic,700,900' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="style/reset.css" type="text/css"/>
-	<link rel="stylesheet" href="style/screen.css" type="text/css"/>
+	<link rel="stylesheet" href="../style/reset.css" type="text/css"/>
+	<link rel="stylesheet" href="../style/screen.css" type="text/css"/>
 </head>
 
 <body>

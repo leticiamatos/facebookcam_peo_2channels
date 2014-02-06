@@ -10,12 +10,12 @@ function jwplayerPlay(id, html5, flash){
 
 	var setupVar = {
 		autostart: true,
-		flashplayer: 'script/jw6/jwplayer.flash.swf',
-		html5player: 'script/jw6/jwplayer.html5.js',
+		flashplayer: '../script/jw6/jwplayer.flash.swf',
+		html5player: '../script/jw6/jwplayer.html5.js',
 		height: 355,
 		width: 640,
 		primary: 'flash',
-		skin: 'script/jw6/skins/beelden.xml',
+		skin: '../script/jw6/skins/beelden.xml',
 		playlist: listFlash
 	};
 	
