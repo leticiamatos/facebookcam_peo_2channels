@@ -4,13 +4,15 @@
 	include("../google_analytics.php");
 	
 	$fb = false;
+	echo "FB FALSE ->  " . $fb;
 	echo "<script>";
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
 		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
 			$fb = true;
-			echo "alert('" . $fb . "')";
+			echo "alert('ENTROU -> " . $fb . "')";
+			echo "ENTROU ->  " . $fb;
 		echo "}";
-		echo "alert('" . $fb . "')";
+		echo "FB ->  " . $fb;
 	echo "</script>";
 	
 	if ($fb){
