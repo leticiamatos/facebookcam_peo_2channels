@@ -1,10 +1,9 @@
-<section class="general default_template chnl2">
+<section class="general default_template chnl1">
 
 	<div class="block_cntt pin">
-		<div class="channel">Canal 2</div>
+		<div class="channel">Canal 1</div>
 		<div class="fb-like" data-href="https://www.facebook.com/portalexamedeordem?fref=ts" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
 		<img src="img/top02.png">
-		<a class="link_face" href="https://www.facebook.com/portalexamedeordem/" target="_blank"></a>
 	</div>
 
 	<header>
@@ -20,15 +19,14 @@
 	</header>
 
 	<section class="content">
-		<div id='video' class="video">
-			<!-- Video aqui -->
-			<span class="thumb"><img src="img/z_lixo_imgvideo.jpg" /></span>
-			<a href="#" class="btn_play"><img src="img/btn_play.png" /></a>
+		<div class="unlike_text">
+			<p>Quer ter acesso ao conteúdo do <br />Facebookcam PEO? <br/><strong>Então curta esta página!</strong></p>
 		</div>
 	</section>
+
 	<section class="schedule">
-		<img src="img/programacao_cn2.png" />
-		<a href="index_chnl1.php" class="channel_1"></a>
+		<img src="img/programacao_cn1.png" />
+ 		<a href="index_chnl2.php" class="channel_2"></a>
 	</section>
 
 	<section class="newsletter_form">
@@ -61,17 +59,3 @@
 
 
 <script src="script/jquery-1.9.1.js" type="text/javascript"></script>
-<script src="script/jw6/jwplayer.js" type="text/javascript"></script>
-<script>jwplayer.key="Rf+04i9NkiWHUtD93d4ECBX/KFPYRc1pScFRjYaLymQ=";</script>
-
-<script src="script/videoJW.js" type="text/javascript"></script>
-
-<script>
-
-	var html5 = "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers8/playlist.m3u8";
-	var flash = "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_8@37037";
-	var id = "video";
-
-	jwplayerPlay(id, html5, flash);
-	
-</script>
