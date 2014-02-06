@@ -10,11 +10,11 @@
 		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
 			$fb = 1;
 			echo "alert('ENTROU -> " . $fb . "');";
-			echo "ENTROU ->  " . $fb;
 		echo "}";
-		echo "FB ->  " . $fb;
 	echo "</script>";
 	
+		echo "FB ->  " . $fb;
+		
 	if ($fb == 1){
 		// create the Facebook Graph SDK object
 		require '../src/facebook.php';
