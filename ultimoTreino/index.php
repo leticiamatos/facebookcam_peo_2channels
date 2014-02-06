@@ -7,15 +7,12 @@
 	echo "FB FALSE ->  " . $fb;
 	echo "<script>";
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
-		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
-			$fb = 1;
-			echo "alert('ENTROU -> " . $fb . "');";
-		echo "}";
+		$fb = echo "document.referrer.match(/facebook[.]com/gi)";
 	echo "</script>";
 	
 		echo "FB ->  " . $fb;
-		
-	if ($fb == 1){
+
+	if ($fb == "facebook.com"){
 		// create the Facebook Graph SDK object
 		require '../src/facebook.php';
 		$facebook = new Facebook(array(
