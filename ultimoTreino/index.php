@@ -9,7 +9,7 @@
 		echo "alert(document.referrer.match(/facebook[.]com/gi));";
 		echo "if (document.referrer.match(/facebook[.]com/gi) != null){";
 			$fb = 1;
-			echo "alert('ENTROU -> " . $fb . "')";
+			echo "alert('ENTROU -> " . $fb . "');";
 			echo "ENTROU ->  " . $fb;
 		echo "}";
 		echo "FB ->  " . $fb;
