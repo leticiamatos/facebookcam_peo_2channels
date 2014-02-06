@@ -3,13 +3,13 @@
 	<div class="block_cntt pin">
 		<div class="channel">Canal 1</div>
 		<div class="fb-like" data-href="https://www.facebook.com/portalexamedeordem?fref=ts" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-		<img src="img/top02(like).png">
+		<img src="../img/top02(like).png">
 		<a class="link_face" href="https://www.facebook.com/portalexamedeordem/" target="_blank"></a>
 	</div>
 
 	<header>
 		<h1 class="logo">
-			<img src="img/logo_fcpeo.png" />
+			<img src="../img/logo_fcpeo.png" />
 		</h1>
 		<div class="col_02">
 			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
@@ -22,13 +22,13 @@
 	<section class="content">
 		<div id='video' class="video">
 			<!-- Video aqui -->
-			<span class="thumb"><img src="img/z_lixo_imgvideo.jpg" /></span>
-			<a href="#" class="btn_play"><img src="img/btn_play.png" /></a>
+			<span class="thumb"><img src="../img/z_lixo_imgvideo.jpg" /></span>
+			<a href="#" class="btn_play"><img src="../img/btn_play.png" /></a>
 		</div>
 	</section>
 
 	<section class="schedule">
-		<img src="img/programacao_cn1.png" />
+		<img src="../img/programacao_cn1.png" />
  		<a href="index_chnl2.php" class="channel_2"></a>
 	</section>
 
