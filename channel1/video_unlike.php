@@ -54,7 +54,7 @@
 		<a href="http://www.portalexamedeordem.com.br/" target="_blank">www.portalexamedeordem.com.br</a>
 	</footer>
 
-	<div class="fb-comments" data-href="http://www.portalexamedeordem.com.br#mesaredonda_xii_pfase" data-numposts="10" data-width="800"></div>
+	<div class="fb-comments" data-href="http://www.portalexamedeordem.com.br#mesaredonda_xii_c1_sfase" data-numposts="10" data-width="800"></div>
 </section>
 
 
