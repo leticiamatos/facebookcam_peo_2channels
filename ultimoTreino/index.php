@@ -7,8 +7,7 @@
 		echo "alert(document.referrer.match(/facebook[.]com/gi));"
 		echo "if (document.referrer.match(/facebook[.]com/gi) != ''){";
 			include("video.php");
-		echo "}";
-		echo "else{";
+		echo "}else{";
 		
 			// create the Facebook Graph SDK object
 			require '../src/facebook.php';
