@@ -29,7 +29,7 @@
 
 	<section class="schedule">
 		<img src="../img/programacao_cn1.png" />
- 		<a href="../channel2/" class="channel_2"></a>
+ 		<a href="https://www.facebook.com/portalexamedeordem/app_280309662087326" class="channel_2"></a>
 	</section>
 
 	<section class="newsletter_form">
