@@ -2,7 +2,6 @@
 
 	<div class="block_cntt pin">
 		<div class="channel">Canal 1</div>
-		<div class="fb-like" data-href="https://www.facebook.com/portalexamedeordem?fref=ts" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="true"></div>
 		<img src="../img/top02.png">
 	</div>
 
