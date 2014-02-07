@@ -28,7 +28,7 @@
 	</section>
 	<section class="schedule">
 		<img src="../img/programacao_cn2.png" />
-		<a href="https://www.facebook.com/portalexamedeordem/app_325693580861604" class="channel_1"></a>
+		<a href="https://www.facebook.com/portalexamedeordem/app_325693580861604" class="channel_1" id="ch1"></a>
 	</section>
 
 	<section class="newsletter_form">
