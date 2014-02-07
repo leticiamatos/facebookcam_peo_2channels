@@ -6,7 +6,7 @@
 		if (document.referrer.match(/facebook[.]com/gi) != null){
 			top.location.href = $(this).attr('href');
 		}else{
-			top.location.href = "http://portalexamedeordem.com.br/canal2";
+			top.location.href = "http://portalexamedeordem.com.br/canal1";
 		}
 	});
 	$("#ch2").click(function(e){
@@ -14,7 +14,7 @@
 		if (document.referrer.match(/facebook[.]com/gi) != null){
 			top.location.href = $(this).attr('href');
 		}else{
-			top.location.href = "http://portalexamedeordem.com.br/canal1";
+			top.location.href = "http://portalexamedeordem.com.br/canal2";
 		}
 	});
 </script>
