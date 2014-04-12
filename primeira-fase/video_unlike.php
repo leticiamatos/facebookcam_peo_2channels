@@ -21,10 +21,6 @@
 		</div>
 	</section>
 
-	<section class="schedule">
-		<img src="../img/programacao.png" />
-	</section>
-
 	<section class="newsletter_form">
 		<div class="col_01">
 			<p class="line_01">QUER RECEBER INFORMAÇÕES SOBRE <br/>O EXAME DE ORDEM?</p>
