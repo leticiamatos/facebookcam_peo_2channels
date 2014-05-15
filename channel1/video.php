@@ -67,8 +67,8 @@
 
 <script>
 
-	var html5 = "http://rsaraiva_ios-i.akamaihd.net/hls/live/203931/cers4/playlist.m3u8";
-	var flash = "http://renatosaraiva-f.akamaihd.net/rsaraiva_1_4@37037";
+	var html5 = "http://cers100hls-lh.akamaihd.net/i/cers_4@192459/master.m3u8";
+	var flash = "http://cers100hls-lh.akamaihd.net/i/cers_4@192459/master.m3u8";
 	var id = "video";
 
 	jwplayerPlay(id, html5, flash);
