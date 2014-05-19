@@ -2,11 +2,11 @@ function jwplayerPlay(id, html5, flash){
 
 	// Html 5
 	providerHtml5 = 'video';
-	listHtml5 = isYoutube(html5, providerHtml5);
+	/** listHtml5 = isYoutube(html5, providerHtml5); **/
 
 	// Flash
 	providerFlash = 'http://players.edgesuite.net/flash/plugins/jw/v3.2/AkamaiAdvancedJWStreamProvider.swf';
-	listFlash = isYoutube(flash, providerFlash);
+	/** listFlash = isYoutube(flash, providerFlash); **/
 
 	var setupVar = {
 		autostart: true,
@@ -16,7 +16,8 @@ function jwplayerPlay(id, html5, flash){
 		width: 640,
 		primary: 'flash',
 		skin: '../script/jw6/skins/beelden.xml',
-		playlist: listFlash
+		provider: providerFlash,
+		file: flash
 	};
 	
 	/***********************************************************************************/
@@ -40,7 +41,7 @@ function jwplayerPlay(id, html5, flash){
 		// "Your browser has not installed Adobe Flash";
 		if(typeof(document.createElement('video').canPlayType) != undefined) {
 			// "Your browser includes support for HTML5 video";
-			setupVar['playlist'] = listHtml5;
+			setupVar['provider'] = providerHtml5;
 		}
 	}
 	/***********************************************************************************/
@@ -60,7 +61,7 @@ function isYoutube(video, provider){
 	}else{
 
 				list = [{
-					provider: 'video',
+					provider: provider,
 					type: "mp4",
 					file : video
 				}];
