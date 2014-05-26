@@ -11,7 +11,7 @@
 		<div class="col_02">
 			<p class="line_01">ASSISTA <span>AO VIVO</span></p>
 			<h2 class="line_03">MESA REDONDA</h2>
-			<p class="line_04">XIII EXAME DE ORDEM UNIFICADO - 1&ordf; FASE</p>
+			<p class="line_04">XIII EXAME DE ORDEM UNIFICADO - 2&ordf; FASE</p>
 		</div>
 	</header>
 
